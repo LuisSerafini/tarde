@@ -13,4 +13,8 @@ h1{
     color:#000000;
     text-shadow:6px 4px 4px #000000;
     transition: 5px;
+}h1:hover {
+    color:#000000;
+    text-shadow:6px 4px 4px #000000;
+    transition: 5px;
 }
