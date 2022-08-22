@@ -1,0 +1,15 @@
+body{
+    background-color: green;
+    color: white;
+    font-size: quit
+    55px;
+}
+img {
+    border:5px double #000;
+    border-radius:15px;
+    box-shadow: 25px 10px 8px #000000;
+}
+h1{
+    color:#000000;
+    text-shadow:6px 4px 4px #000000;
+}
