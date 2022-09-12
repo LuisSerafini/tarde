@@ -59,7 +59,7 @@ img {
     font-style:unset;
  }
  .menu li a:hover{
-    transition-duration: 10ms;
+    transition-delay: 0.5ms;
     background-color: blue;
     text-decoration: none;
     color: white !important;
