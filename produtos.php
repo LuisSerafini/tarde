@@ -1,7 +1,6 @@
-
 <?php include "./cabecalho.php"; ?>
 
-<h1> Seja Bem Vindo </h1
+<h1> Lista de Produtos </h1
 
 
 <?php include "./rodape.php"; ?>

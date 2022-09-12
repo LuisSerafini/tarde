@@ -1,20 +1,83 @@
-body{
-    background-color: green;
-    color: white;
-    font-size: quit
-    55px;
+body, li{
+    margin : 0px;
+    padding : 0px;
+    background-color:#1d1d1d;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
 }
+
+#container{
+    display: grid;
+    grid-template-rows: 115px 79Vh auto; 
+    grid-template-areas: 
+    'cabecalho'
+    'conteudo'
+}
+
+#cabecalho{
+    grid-area: cabecalho;
+    background-color: #1d1d1d;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#conteudo{
+grid-area: conteudo;
+background-color: #ccc;
+}
+
 img {
+    margin-left :15px;
+    margin-top :15px;
     border:5px double #000;
     border-radius:15px;
     box-shadow: 25px 10px 8px #000000;
+    width:55%;
 }
-h1{
-    color:#000000;
-    text-shadow:6px 4px 4px #000000;
-    transition: 5px;
-}h1:hover {
-    color:#000000;
-    text-shadow:6px 4px 4px #000000;
-    transition: 5px;
+.menu li {
+  background-color: #1d1d1d;
+    padding: 20px;
+    margin: left 20px;
 }
+ .menu{
+    display: flex;
+ }
+
+ .menu li a{
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    text-decoration: none;
+    border-radius:15px 10px 15px 15px;
+    border:5px double #000;
+    border-radius:15px;
+    box-shadow: 15px 10px 8px blue;
+    color: black;
+    font-style:unset;
+ }
+ .menu li a:hover{
+    transition-duration: 10ms;
+    background-color: blue;
+    text-decoration: none;
+    color: white !important;
+    border-radius:15px 10px 15px 15px;
+    border:5px double #000;
+    border-radius:15px;
+    box-shadow: 15px 10px 8px #000000;
+    font-style: oblique;
+ }
+ h1 {
+    display: flex;
+    margin: flex;
+    margin-left: 50px;
+ }
+ #des{
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+    color:white;
+    font-size: 11px;
+ }
