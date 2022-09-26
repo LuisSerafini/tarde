@@ -6,7 +6,7 @@
       <th scope="col">Produto</th>
       <th scope="col">Quantidade</th>
       <th scope="col">Valor Unitário</th>
-      <th scope="col">Preço Total</th>
+      
     </tr>
   </thead>
   <tr>
@@ -17,7 +17,7 @@
       <td >Produto <?php echo $i ;?></td>
       <td>Quantidade <?php echo $i ;?></td>
       <td>Preço Unitário <?php echo $i ;?></td>
-      <td>Valor Total <?php echo $i ;?></td>
+      
 
     </tr>
   </tbody>
